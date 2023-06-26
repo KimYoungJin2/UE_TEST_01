@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "UE_SnakeTestGameModeBase.generated.h"
+#include "UE_TEST_02GameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class UE_SNAKETEST_API AUE_SnakeTestGameModeBase : public AGameModeBase
+class UE_TEST_02_API AUE_TEST_02GameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	

@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class UE_SnakeTest : ModuleRules
+public class UE_TEST_02 : ModuleRules
 {
-	public UE_SnakeTest(ReadOnlyTargetRules Target) : base(Target)
+	public UE_TEST_02(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
