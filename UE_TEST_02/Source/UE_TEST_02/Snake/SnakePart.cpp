@@ -41,6 +41,7 @@ void ASnakePart::Tick(float DeltaTime)
 
 }
 
+
 ASnakeGameMode* ASnakePart::GetSnakeGameMode()
 {
 	AGameModeBase* GameModePtr = UGameplayStatics::GetGameMode(GetWorld());

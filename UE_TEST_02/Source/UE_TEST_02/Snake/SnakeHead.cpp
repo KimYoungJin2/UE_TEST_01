@@ -86,6 +86,12 @@ void ASnakeHead::LeftAction()
 		Body->Destroy();
 		GetSnakeGameMode()->CurBodyReset();
 	}
+	//if (true == GetSnakeGameMode()->IsPart(GetActorLocation(),"Body"))
+	//{
+	//	AActor* Body = GetSnakeGameMode()->GetPart(GetActorLocation(), "Body");
+	//	Body->
+
+	//}
 
 }
 void ASnakeHead::RightAction()
